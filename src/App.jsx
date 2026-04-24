@@ -984,7 +984,7 @@ export default function App() {
     </>
   );
 
-  const isAdmin = user.email === "johannie@origine.com" || user.email?.includes("admin");
+  const isAdmin = user.email === "origine.medias@gmail.com" || user.email?.includes("admin");
 
   const navItems = [
     { id:"dashboard", icon:"⊕", label:"Tableau de bord" },
